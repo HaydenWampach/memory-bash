@@ -5,6 +5,7 @@ import friends from './gamecards.json';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/Navbar/Nav';
+import Header from './components/Header/Header';
 import Scoreboard from './components/Scoreboard/Scoreboard';
 
 class App extends Component {
