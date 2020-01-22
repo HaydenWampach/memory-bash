@@ -1,12 +1,12 @@
-import React, { Compnent } from 'react';
-import GameCard from './components/GameCard';
-import Wrapper from './components/Wrapper';
+import React, { Component } from 'react';
+import GameCard from './src/GameCard/index.js';
+import Wrapper from './src/Wrapper/index.js';
 import friends from './gamecards.json';
 import './App.css';
-import Footer from './components/Footer/Footer';
-import NavBar from './components/Navbar/Nav';
-import Header from './components/Header/Header';
-import Scoreboard from './components/Scoreboard/Scoreboard';
+import Footer from './src/Footer/Footer.js';
+import NavBar from './src/Navbar/Nav.js';
+import Header from './src/Header/Header.js';
+import Scoreboard from './src/Scoreboard/Scoreboard.js';
 
 class App extends Component {
   constructor(props) {
